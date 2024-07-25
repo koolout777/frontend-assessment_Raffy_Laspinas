@@ -1,5 +1,10 @@
-@import './base.css';
+@import './layout/l-site-width.css';
+@import './layout/l-column.css';
+@import './global/base-style.css';
+@import './components/hero-banner.css';
+@import './components/article-card.css';
+@import './components/navigation-link.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-

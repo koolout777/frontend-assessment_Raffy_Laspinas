@@ -1,0 +1,5 @@
+@layer layout {
+  .l-site__width {
+    @apply w-l-site-width mt-0 mx-auto;
+  }
+}
