@@ -1,9 +1,0 @@
-@layer components {
-  body {
-    @apply text-base-color transition-colors duration-500 ease-in-out leading-relaxed font-sans text-base tracking-wide antialiased;
-  }
-  
-  * {
-    @apply box-border;
-  }
-}
