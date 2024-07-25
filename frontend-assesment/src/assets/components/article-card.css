@@ -33,7 +33,7 @@
 
   .article-card__description--url,
   .article-card__description--text {
-    @apply block text-content-base-color;
+    @apply block text-base-color;
   }
 
   .article-card__description--url {

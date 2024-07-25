@@ -8,10 +8,10 @@
   }
 
   .hero-banner__title {
-    @apply text-6xl font-bold;
+    @apply text-6xl text-content-base-color font-bold;
   }
 
   .hero-banner__description {
-    @apply mt-4 text-[23px] md:text-[32px] lg:text-[32px] tracking-base;
+    @apply mt-4 text-[23px] tracking-base text-content-base-color md:text-[32px] lg:text-[32px] ;
   }
 }

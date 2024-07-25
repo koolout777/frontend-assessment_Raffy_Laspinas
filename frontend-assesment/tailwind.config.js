@@ -3,8 +3,9 @@ module.exports = {
    theme: {
     extend: {
       colors: {
-        'base-color': '#ffffff',
-        'content-base-color': '#000000'
+        'base-color': '#000000',
+        'content-base-color': '#ffffff',
+        'accent-color': '#42b883'
       },
       fontFamily: {
         sans: [

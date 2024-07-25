@@ -1,0 +1,37 @@
+@layer components {
+  .accordion-item {
+    @apply border border-accent-color  mb-2 rounded overflow-hidden;
+  }
+
+  .accordion-header {
+    @apply flex justify-between p-2 bg-gray-100 cursor-pointer select-none border-b border-accent-color ;
+  }
+
+  .accordion-title {
+    @apply font-bold;
+  }
+
+  .accordion-icon {
+    @apply text-lg;
+  }
+
+  .accordion-content {
+    @apply px-2 bg-white border-t border-accent-color  transition-all duration-500 ease-out overflow-hidden;
+    max-height: 0;
+  }
+
+  .accordion-content.open {
+    @apply py-2;
+    max-height: 500px;
+  }
+
+  .fade-enter-active,
+  .fade-leave-active {
+    @apply transition-opacity duration-300 ease-in-out;
+  }
+
+  .fade-enter,
+  .fade-leave-to {
+    @apply opacity-0;
+  }
+}
