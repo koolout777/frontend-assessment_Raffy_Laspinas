@@ -1,6 +1,6 @@
 @layer components {
   .navigation-link {
-    @apply fixed right-1 bottom-1 text-[#42b883] font-bold tracking-widest;
+    @apply fixed right-5 bottom-5 text-[#42b883] font-bold tracking-widest;
     animation: bounce 3s infinite;
   }
 
