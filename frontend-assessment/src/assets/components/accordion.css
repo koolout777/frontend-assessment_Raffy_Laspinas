@@ -1,4 +1,8 @@
 @layer components {
+  .accordion-container {
+    @apply mt-10 block md:hidden lg:hidden;
+  }
+
   .accordion-item {
     @apply border border-accent-color  mb-2 rounded overflow-hidden;
   }
@@ -16,13 +20,15 @@
   }
 
   .accordion-content {
-    @apply px-2 bg-white border-t border-accent-color  transition-all duration-500 ease-out overflow-hidden;
-    max-height: 0;
+    @apply px-2 bg-white border-t border-accent-color max-h-0 transition-all duration-500 ease-out overflow-hidden;
+  }
+  
+  .accordion-content > ul {
+    @apply list-disc;
   }
 
-  .accordion-content.open {
-    @apply py-2;
-    max-height: 500px;
+  .accordion-content.is-active {
+    @apply py-2 max-h-[500px];
   }
 
   .fade-enter-active,

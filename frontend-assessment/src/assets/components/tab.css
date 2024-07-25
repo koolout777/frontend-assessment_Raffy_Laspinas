@@ -1,6 +1,6 @@
 @layer components {
   .tabs-container {
-    @apply py-10;
+    @apply py-10 hidden md:block lg:block;
   }
 
   .tabs {

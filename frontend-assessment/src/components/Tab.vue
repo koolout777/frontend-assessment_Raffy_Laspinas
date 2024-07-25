@@ -1,5 +1,5 @@
 <template>
-  <div class="tabs-container l-site__width hidden md:block lg:block">
+  <div class="tabs-container l-site__width">
     <div class="tabs">
       <button
         class="tab-button"

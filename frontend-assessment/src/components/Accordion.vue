@@ -1,5 +1,5 @@
 <template>
-  <div class="accordion-container l-site__width mt-10 black md:hidden lg:hidden">
+  <div class="accordion-container l-site__width">
     <div 
       v-for="(item, index) in data" 
       :key="index" 
@@ -16,7 +16,7 @@
       </div>
       <transition name="fade">
         <div 
-          :class="['accordion-content', { 'open': openIndex === index }]"
+          :class="['accordion-content', { 'is-active': openIndex === index }]"
           v-html="item.content"
         ></div>
       </transition>

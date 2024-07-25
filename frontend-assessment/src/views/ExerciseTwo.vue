@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeroBanner
-      bannerImage="https://unsplash.com/photos/white-garlic-C0rKB-dB-_o"
+      bannerImage="https://assets.lummi.ai/assets/QmVMPdWkcCBZReUrzAXYaqTUqaJNExb8kFqX657W4K4R8x?auto=format&w=1500"
       bannerText="Exercise Two!"
     />
     <Tab />
